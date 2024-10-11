@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon E-commerce</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Mon E-commerce</div>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#products">Produits</a></li>
+          <li>
+            <a href="#" id="cart-link">Panier <span id="cart-count">0</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Bienvenue sur Mon E-commerce</h1>
+        <p>Découvrez nos produits exceptionnels !</p>
+      </section>
+
+      <section id="products">
+        <h2>Nos Produits</h2>
+        <div id="product-list"></div>
+      </section>
+    </main>
+
+    <div id="cart-panel" class="cart-panel">
+      <button id="close-cart">&times;</button>
+      <h2>Votre Panier</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total">Total: 0 €</div>
+      <button id="checkout">Commander</button>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Mon E-commerce. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
