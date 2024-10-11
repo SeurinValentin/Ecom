@@ -89,5 +89,4 @@ function checkout() {
     closeCartPanel();
 }
 
-
 window.addToCart = addToCart;
